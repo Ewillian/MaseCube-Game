@@ -7,14 +7,13 @@ public class Player : MonoBehaviour {
 
     public float moveSpeed = 3f;
     private Vector3 input;
-    private Rigidbody rb;
     private Vector3 spawn;
     public GameObject deathParticle;
-    public int count = 0;
+    public int countCoin = 0;
+    public int deathCount = 0;
     
 
     void Start () {
-        rb = transform.GetComponent<Rigidbody>();
         spawn = transform.position;
     }
 	
@@ -25,6 +24,7 @@ public class Player : MonoBehaviour {
         if (transform.position.y < -2)
         {
             Die();
+
         }
     }
 
@@ -33,12 +33,13 @@ public class Player : MonoBehaviour {
         if(other.transform.tag == "Enemy")
         {
             Die();
+            deathCount += 1;
         }
 
         if (other.transform.tag == "Coin")
         {
             other.gameObject.SetActive(false);
-            count = count + 1;
+            countCoin += 1;
         }
     }
 
