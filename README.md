@@ -18,3 +18,7 @@ Avec l'outils de développement de jeux vidéo Unity, créer un "[WORLD'S HARDES
 * [Visual Studio Community](https://visualstudio.microsoft.com/fr/vs/community/).
 * [Langage C#](https://docs.microsoft.com/fr-fr/dotnet/csharp/programming-guide/).
 * [Unity](https://unity3d.com/fr) Version 2018.2.16f1.
+
+## Membre du Projet
+
+* Guillaume Le Coq
