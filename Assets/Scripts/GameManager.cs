@@ -5,11 +5,11 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
-    public static int currentLevel = 0;
+    public static int currentLevel = 1;
 
     public static void completeLevel()
     {
-        if (currentLevel < 2)
+        if (currentLevel < 3)
         {
             currentLevel += 1;
             SceneManager.LoadScene(currentLevel);

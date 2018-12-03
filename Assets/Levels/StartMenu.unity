@@ -606,10 +606,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Les r\xE8gles sont simple:\n\n       *Vous devez atteindre l'arriv\xE9
-    qui est le\n        Cube Vert.\n\n       *A chaque fois que vous mourrez vous
+  m_Text: "Les r\xE8gles sont simple:\n\n       *Vous devez atteindre l'arriv\xE9e
+    qui est \n       le Cube Vert.\n\n       *A chaque fois que vous mourrez vous
     \n         \xEAtes d\xE9plac\xE9 \xE0 votre point de d\xE9part.\n\n       *Votre
-    score augmente de 10 si vous\n        atteignez l'arriv\xE9 et de 5 si vous\n
+    score augmente de 10 si vous\n        atteignez l'arriv\xE9e et de 5 si vous\n
     \       ramassez une pi\xE8ce.\n\nBonne Chance !"
 --- !u!222 &1303180399
 CanvasRenderer:
@@ -694,6 +694,7 @@ GameObject:
   - component: {fileID: 1745752521}
   - component: {fileID: 1745752520}
   - component: {fileID: 1745752519}
+  - component: {fileID: 1745752522}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -761,6 +762,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1745752522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1745752518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a60e577785f6f043b7f1efbe67424d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1925770411
 GameObject:
   m_ObjectHideFlags: 0
