@@ -6,8 +6,15 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
     public static int currentLevel = 1;
+    public int countCoin = 0;
 
-    public static void completeLevel()
+    void Start(){
+        DontDestroyOnLoad(gameObject);
+    }
+    public void addCoin(){
+        countCoin += 1;
+    }
+    public void completeLevel()
     {
         if (currentLevel < 3)
         {

@@ -9,12 +9,16 @@ public class Player : MonoBehaviour {
     private Vector3 input;
     private Vector3 spawn;
     public GameObject deathParticle;
-    public int countCoin = 0;
     public int deathCount = 0;
     
+    public GameManager manager;
+    
+    public GameObject GameMan;
 
     void Start () {
         spawn = transform.position;
+        GameMan = GameObject.Find("GameMan");
+        manager = GameMan.GetComponent<GameManager>();
     }
 	
 	void Update () {
@@ -39,22 +43,27 @@ public class Player : MonoBehaviour {
         if (other.transform.tag == "Coin")
         {
             other.gameObject.SetActive(false);
-            countCoin += 1;
+            manager.addCoin();
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.transform.tag == "Enemy")
+        {
+            Die();
+            deathCount += 1;
+        }
         if (other.transform.tag == "Goal")
         {
-            GameManager.completeLevel();
+            manager.completeLevel();
         }
     }
 
     void Die()
     {
         Instantiate(deathParticle, transform.position, Quaternion.identity);
-        transform.position = spawn; 
+        transform.position = spawn;
     }
 
 }
