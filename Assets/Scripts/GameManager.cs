@@ -14,5 +14,9 @@ public class GameManager : MonoBehaviour {
             currentLevel += 1;
             SceneManager.LoadScene(currentLevel);
         }
+        else if(currentLevel == 4)
+        {
+            Application.Quit();
+        }
     }
 }
