@@ -8,6 +8,7 @@ TagManager:
   - Goal
   - Coin
   - Wall
+  - ActionElement
   layers:
   - Default
   - TransparentFX
