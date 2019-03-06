@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour {
     public static int currentLevel = 1;
     public int countCoin = 0;
-
     void Start(){
         DontDestroyOnLoad(gameObject);
     }
