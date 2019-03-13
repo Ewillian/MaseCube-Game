@@ -12,6 +12,7 @@ Avec l'outils de développement de jeux vidéo Unity, créer un "[WORLD'S HARDES
 * Si envie de modifications ou corrections:
     * [Visual Studio 2017](https://visualstudio.microsoft.com/fr/vs/community/).
     * [Unity](https://unity3d.com/fr) Version 2018.2.16f1.
+* Le build du jeu se trouve dans le dossier "game".
 
 ## Outils
 
@@ -19,6 +20,7 @@ Avec l'outils de développement de jeux vidéo Unity, créer un "[WORLD'S HARDES
 * [Langage C#](https://docs.microsoft.com/fr-fr/dotnet/csharp/programming-guide/).
 * [Unity](https://unity3d.com/fr) Version 2018.2.16f1.
 
-## Membre du Projet
+## Membres du Projet
 
-* Guillaume Le Coq
+*  Guillaume LE COQ
+*  Margaux TEYSSIER
