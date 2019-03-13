@@ -1164,9 +1164,10 @@ GameObject:
   - component: {fileID: 444894811}
   - component: {fileID: 444894810}
   - component: {fileID: 444894809}
+  - component: {fileID: 444894812}
   m_Layer: 0
   m_Name: Spike (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1179,9 +1180,10 @@ Animation:
   m_GameObject: {fileID: 444894808}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: aacbb74343975784189a5b112f507534, type: 2}
+  m_Animation: {fileID: 7400000, guid: 68e2ed14e71a8ca40aa19521188e294e, type: 2}
   m_Animations:
-  - {fileID: 7400000, guid: aacbb74343975784189a5b112f507534, type: 2}
+  - {fileID: 0}
+  - {fileID: 7400000, guid: 68e2ed14e71a8ca40aa19521188e294e, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -1217,6 +1219,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &444894812
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 444894808}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.64199895, y: 0.4512455, z: 1}
+  m_Center: {x: -0.012605529, y: 0.23989062, z: 5.7759124e-17}
 --- !u!1 &485959435
 GameObject:
   m_ObjectHideFlags: 0
@@ -1390,9 +1404,10 @@ GameObject:
   - component: {fileID: 553515337}
   - component: {fileID: 553515336}
   - component: {fileID: 553515338}
+  - component: {fileID: 553515339}
   m_Layer: 0
   m_Name: Spike
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1418,7 +1433,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 553515335}
   m_LocalRotation: {x: -0.5068815, y: -0.49302256, z: -0.49302247, w: 0.5068815}
-  m_LocalPosition: {x: -2.92, y: 0.99, z: -5.41}
+  m_LocalPosition: {x: -2.99, y: 0.99, z: -6.55}
   m_LocalScale: {x: 2.6580005, y: 6.3031836, z: 2.658}
   m_Children:
   - {fileID: 24509644}
@@ -1443,6 +1458,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!65 &553515339
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 553515335}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6179643, y: 0.4972194, z: 1}
+  m_Center: {x: 0.028816039, y: 0.26916623, z: -1.4176704e-16}
 --- !u!1 &569560582
 GameObject:
   m_ObjectHideFlags: 0
@@ -2464,9 +2491,10 @@ GameObject:
   - component: {fileID: 1072314138}
   - component: {fileID: 1072314137}
   - component: {fileID: 1072314136}
+  - component: {fileID: 1072314139}
   m_Layer: 0
   m_Name: Spike (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2479,9 +2507,10 @@ Animation:
   m_GameObject: {fileID: 1072314135}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: aacbb74343975784189a5b112f507534, type: 2}
+  m_Animation: {fileID: 7400000, guid: becc0b02c75f0e3468951300c310a957, type: 2}
   m_Animations:
-  - {fileID: 7400000, guid: aacbb74343975784189a5b112f507534, type: 2}
+  - {fileID: 0}
+  - {fileID: 7400000, guid: becc0b02c75f0e3468951300c310a957, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -2517,6 +2546,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1072314139
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1072314135}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6641892, y: 0.44929448, z: 1}
+  m_Center: {x: 0.0032227547, y: 0.2289582, z: -9.9444e-17}
 --- !u!1 &1072395554
 GameObject:
   m_ObjectHideFlags: 0

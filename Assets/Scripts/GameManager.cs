@@ -20,18 +20,13 @@ public class GameManager : MonoBehaviour {
             currentLevel += 1;
             SceneManager.LoadScene(currentLevel);
         }
-        else if(currentLevel == 4 && countCoin == 5)
+        else if(currentLevel == 3 && countCoin >= 4)
         {
             SceneManager.LoadScene(5);
         }
-        else if(currentLevel == 4)
+        else
         {
-            Application.Quit();
+            SceneManager.LoadScene(4);
         }
-    }
-
-    public void enableAccess()
-    {
-
     }
 }

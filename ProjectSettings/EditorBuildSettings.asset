@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Level3.unity
     guid: c3a3a86d0eca858469db742dda7a224e
+  - enabled: 1
+    path: Assets/Levels/MenuEnd.unity
+    guid: 5ac4a459342900b4fa379e5b42ea5c1b
+  - enabled: 1
+    path: Assets/Levels/MenuEndBonus.unity
+    guid: 084e1657413671846ba0d10da16cca1f
   m_configObjects: {}

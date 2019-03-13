@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Levels/Bonus.unity
+- path: Assets/Levels/MenuEndBonus.unity
   isLoaded: 1
   isActive: 1
