@@ -12,7 +12,7 @@ Avec l'outils de développement de jeux vidéo Unity, créer un "[WORLD'S HARDES
 * Si envie de modifications ou corrections:
     * [Visual Studio 2017](https://visualstudio.microsoft.com/fr/vs/community/).
     * [Unity](https://unity3d.com/fr) Version 2018.2.16f1.
-* Le build du jeu se trouve dans le dossier "game".
+* Le build du jeu se trouve dans le dossier "Game".
 
 ## Outils
 
