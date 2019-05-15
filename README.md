@@ -6,7 +6,7 @@
 
 * Avec l'outils de développement de jeux vidéo Unity, créer un "[WORLD'S HARDEST GAME](https://www.coolmathgames.com/0-worlds-hardest-game)" like en 3D et avec différents niveau de difficultés. 
 
-* Découvrir l'ensemble des éléments qui compose Unity 3D.
+* Découvrir l'ensemble des éléments qui composent Unity 3D.
 
 ## Prérequis
 
